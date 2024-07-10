@@ -21,7 +21,7 @@
 
         <img src="./images/forbes-logo.png" alt="" style="padding-bottom: 10px;">
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdownMenuLink" role="button"
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 LEADERSHIP
             </a>
@@ -45,7 +45,7 @@
             <a class="nav-link disabled">STARTUPS</a>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdownMenuLink" role="button"
+            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 LEADERSHIP
             </a>
@@ -56,7 +56,7 @@
             </ul>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdownMenuLink" role="button"
+            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 LEADERSHIP
             </a>
@@ -71,10 +71,10 @@
             <a class="nav-link disabled">LIFE</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link disabled">SUBSCRIBE</a>
+            <a class="nav-link disabled" style="color: rgb(255, 24, 24);">SUBSCRIBE</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link disabled">LOG IN</a>
+            <a class="nav-link disabled" style="color: rgb(255, 24, 24);">LOG IN</a>
         </li>
         <li class="nav-item">
             <a class="nav-link disabled "><img src="./images/icons8-search-30.png" alt=""></a>
@@ -85,36 +85,40 @@
 
 
     <div class="container">
-        <div class="row">
-            <div class="col col-5">
+        <div class="row" style="display: flex;">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-5 ">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        <button style="background-color: red;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                             class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        <button style="background-color: red;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
                             aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        <button style="background-color: red;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                             aria-label="Slide 3"></button>
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="./images/img_236299_1_20240624students_unacademy_012_sm.jpg" class="d-block w-100"
-                                alt="...">
-
-                            <h3><B>From Aerostatical</B></h3>
-                        </div>
-                        <div class="carousel-item">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
                             <img src="./images/img_236321_agnikul.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/img_236321_agnikul.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/img_236321_agnikul.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
 
-                            <h3>ytdfytjduykd7u</h3>
-                        </div>
-                        <div class="carousel-item">
-                            <img class="img-fluid" src="./images/img_236337_prashantjain.jpg" class="d-block w-100"
-                                alt="...">
-                            
-                            <h3>jffyyyugygvfktuf</h3>
-                        </div>
-                    </div>
+
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -127,7 +131,7 @@
                     </button>
                 </div>
             </div>
-            <div class="col col-3 fs-6 text">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-4">
             <div>   
                 <div>News</div>
                 <P class="fs-5 text">T20 World Cup Victory Parade: A celebration like no other</P>
@@ -150,11 +154,27 @@
             </div>
             </div>
         
-            <div class="col col-3">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-2">
                 <img class="img-fluid" src="./images/forbesindiacover_bg_20240702095423_300x500.jpg" alt="">
             </div>
         </div>
-        <div class="row"></div>
+
+        <div class="row">
+            <div class="col-9">
+                <div class="row">
+                    <div class="col-3">
+                        <button class="btn" style="background-color: orange;" type="submit">innovation</button>
+                        <div>Chara
+                            Technologies: Building motors
+                            sans rare earth metals</div>
+                    </div>
+                    <div class="col-3">reigtuso9u</div>
+                    <div class="col-3">srthyis</div>
+                    <div class="col-3">srthsrthsr</div>
+                </div>
+                <div class="row"></div>
+            </div>
+        </div>
         <div class="row"></div>
         <div class="row"></div>
     </div>
