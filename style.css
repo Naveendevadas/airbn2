@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont{
+    padding:15px;
+    color: rgb(196, 190, 190);
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(54, 53, 53);
+    border-radius: 10PX;
+    max-width: 37em;
+    min-height: 50vh;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/odin.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.contain .imd{
+    position: absolute;
+    top: 4vh;
+    left: 4vh;
+}
+.cent{
+    text-align: center;
+}
+
+@media only screen and (max-width: 490px){
+    .contain{
+        background-image: none;
+    }
+    .cont{
+        width:100%;
+        height: 100%;
+    }
+    .contain .imd{
+        display: none;
+    }
+}
