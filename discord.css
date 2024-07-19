@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .cont{
     padding:30px;
@@ -14,7 +15,7 @@
     min-height: 70vh;
 }
 input{
-    background-color: rgb(54, 53, 53);
+    background-color: rgb(42, 42, 42);
     display: block;
     width: 100%;
     padding: .375rem .75rem;
@@ -23,7 +24,7 @@ input{
     line-height: 1.5;
     color: #292929;
     background-clip: padding-box;
-    border: 1px solid #ced4da;
+    /* border: 1px solid #ced4da; */
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -34,7 +35,7 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./images/odin.jpeg);
+    background-image: url(./discordimages/odin.jpeg);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -73,6 +74,12 @@ input{
     font-size: larger;
     margin: 10px;
 }
+.icons1{
+    margin-top: 4px;
+    width: 30px;
+    height: 30px;
+    display: none;
+}
 
 @media only screen and (max-width: 490px){
     .contain{
@@ -81,7 +88,10 @@ input{
     .cont{
         width:100%;
         height: 100%;
-    }
+    }  
+   
+}
+@media  only screen and (max-width:720px){
     .contain .imd{
         display: none;
     }
@@ -91,6 +101,10 @@ input{
     .discord3{
         display: block;
     }
+    .icons1{
+        display: block;
+    }
+    
 }
 .imccc{
     width: 55px;
